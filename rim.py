@@ -5,7 +5,7 @@ import csv
 class RimSpider(scrapy.Spider):
     name = "nix"
     allowed_domains = ["nix.dn.ua"]
-    start_urls = ["https://nix.dn.ua/komplektujushhie/komplektuyushie-1/precessori-amd"]
+    start_urls = ["https://nix.dn.ua/komplektujushhie"]
 
     def parse(self, response):
         # Парсинг категорий
