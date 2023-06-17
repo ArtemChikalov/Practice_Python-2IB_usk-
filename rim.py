@@ -3,9 +3,9 @@ import csv
 
 
 class RimSpider(scrapy.Spider):
-    name = "nix"
-    allowed_domains = ["nix.dn.ua"]
-    start_urls = ["https://nix.dn.ua/komplektujushhie/komplektuyushie-1/precessori-amd"]
+    name = "rim"
+    allowed_domains = ["rim.org.ru"]
+    start_urls = ["https://rim.org.ru/catalog/tyunery-t2/"]
 
     def parse(self, response):
         # Парсинг категорий
